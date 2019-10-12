@@ -16,6 +16,8 @@ Feedback or ideas are welcome in the [Issue Tracker](https://github.com/citation
 ### Wishlist
 
   - **(Mostly) system-agnostic.** Value transformations (and other parts) should be mostly JSON (or JSON-LD), possibly with Regex parts. For common value transformations like name and date parsing, built-in converters could be set up which should be provided by the runtime.
+  - **Provenance.** Record the quality of mappings, both in terms of the field mapping and the value conversion, and output an object with provenance information.
+  - **Schema support.** For better integration with other systems, include some basic schema URI prefixes for types and fields.
 
 ## Prior art
 
